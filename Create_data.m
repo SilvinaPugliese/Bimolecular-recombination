@@ -1,7 +1,7 @@
 function N = Create_data( time, N0, k, gamma )
 
 % This function returns a dataset based on the solution of a rate
-% equation with a monomolecular and a bimilecular recombination term.
+% equation with a monomolecular decay term + a bimolecular decay term (+ noise).
 % Rate equation: N' = -k*N - gamma*N^2.
 % Analytical solution: N = N0*exp(-k*t)./(1+gamma/k*N0*(1-exp(-k*t))).
 
