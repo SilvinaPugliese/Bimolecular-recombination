@@ -7,7 +7,7 @@ function N = Create_data( time, N0, k, gamma )
 
 % "time" and "N0" are raw arrays. 
 
-% Signed-by: Silvina <silvinanorma@gmail.com>
+% Created-by: Silvina <silvinanorma@gmail.com>
 
 rng default % for reproducibility
 noise = rand(size(N0,2),size(time,2));
