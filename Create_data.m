@@ -11,7 +11,6 @@ function N = Create_data( time, N0, k, gamma )
 
 rng default % for reproducibility
 noise = rand(size(N0,2),size(time,2));
-N = NaN(size(N0,2),size(time,2));
 N = N0'*exp(-k*time)./(1+gamma/k*N0'*(1-exp(-k*time))) + noise;
 
 end

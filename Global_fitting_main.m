@@ -1,3 +1,8 @@
+%% Global fitting of a series of kinetic datasets to retrieve kinetic parameters using 
+%% a monomolecular decay term + a bimolecular decay term.
+
+% Created-by: Silvina <silvinanorma@gmail.com>
+
 % This script performs a global fitting on a series of datasets
 % (recombination kinetics at different pump fluences). Real data can be
 % loaded or created using the analytical solution available for the rate
@@ -5,8 +10,6 @@
 % The rate equation contains a monomolecular decay term + a bimolecular decay term (+ noise).
 % Rate equation: N' = -k*N - gamma*N^2.
 % Analytical solution: N = N0*exp(-k*t)./(1+gamma/k*N0*(1-exp(-k*t))).
-
-% Created-by: Silvina <silvinanorma@gmail.com>
 
 %% Load or create data  
 Option_load_data = 0;
