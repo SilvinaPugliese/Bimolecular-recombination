@@ -27,7 +27,7 @@ if Option_create_datasets;
     Time = repmat(time,1,size(N0,2));
     params = [k, gamma, N0];
     rng default % for reproducibility
-    noise = rand(size(Time))*0.1;
+    noise = rand(size(Time))*0.3;
     datasets = Fitting_function(params, Time) + noise;
 end;
 
