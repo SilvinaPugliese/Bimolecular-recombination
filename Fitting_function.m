@@ -7,7 +7,7 @@ function yfit = Fitting_function( params, Time )
 % Time = [time_1 time_2 ...]
 % params = [k, gamma, N0]
 
-% Created-by: Silvina <silvinanorma@gmail.com>
+% Created-by: Silvina <silvinanorma@gmail.com> 11/06/2018
 
 k = params(1);
 gamma = params(2);
