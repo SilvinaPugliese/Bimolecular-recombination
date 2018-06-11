@@ -2,7 +2,8 @@ function yfit = Fitting_function( params, Time )
 
 % This function returns the following analytical solution: 
 % N = N0*exp(-k*t)./(1+gamma/k*N0*(1-exp(-k*t))).
-% Time and N0 are row vectors.
+% Time and N0 are row vectors 
+% time vectors of the different datasets are concatenated in variable "Time".
 % N0 = [N0_1 N0_2 ... ]
 % Time = [time_1 time_2 ...]
 % params = [k, gamma, N0]
