@@ -11,4 +11,4 @@ which is the solution of the rate equation for monomolecular decay + bimolecular
 Run *Global_fitting_main* with *Option_create_datasets = 1* to create datasets for testing.
 
 ## License & copyright
-Licensed under the MIT license.
+Licensed under the [MIT license](LICENSE).
