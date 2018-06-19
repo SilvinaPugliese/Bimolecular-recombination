@@ -9,3 +9,6 @@ which is the solution of the rate equation for monomolecular decay + bimolecular
 <img width="293" alt="fig1" src="https://user-images.githubusercontent.com/28668295/41208186-8fca4f58-6d74-11e8-9a51-a107751798a7.PNG">
 
 Run *Global_fitting_main* with *Option_create_datasets = 1* to create datasets for testing.
+
+## License & copyright
+Licensed under the MIT license.
